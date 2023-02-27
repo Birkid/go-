@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func nowTime() {
 	now := time.Now() //获取当前时间
 	fmt.Printf("current time:%v\n", now)
 

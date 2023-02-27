@@ -1,8 +1,12 @@
 package main
 
-/*
+import (
+	"fmt"
+	"os"
+)
+
 // 一： 示例1
-func main() {
+func dodeIf1() {
 	const filename = "D:/DodeProject/basics/text.txt"
 	neirong, err := os.ReadFile(filename)
 	if err != nil {
@@ -12,11 +16,9 @@ func main() {
 	}
 }
 
-*/
-
 // 二： 示例2
-/*
-func main() {
+
+func dodeIf2() {
 	const filename = "D:/DodeProject/basics/text.txt"
 	if contents, err := os.ReadFile(filename); err != nil {
 		fmt.Println(err)
@@ -24,5 +26,3 @@ func main() {
 		fmt.Printf("%s\n", contents)
 	}
 }
-
-*/

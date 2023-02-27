@@ -1,6 +1,7 @@
 package main
 
-/*
+import "fmt"
+
 // 一： 给变量定义类型
 func variable() {
 	var a int
@@ -36,12 +37,6 @@ var (
 	cc = true
 )
 
-func main() {
-	variable()
-	fuZhi()
-	fuzhiJianxie()
-	fuzhiDxie()
+func dodeBl() {
 	fmt.Println(aa, bb, cc)
 }
-
-*/

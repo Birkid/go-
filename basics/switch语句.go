@@ -1,11 +1,12 @@
 package main
 
+import "fmt"
+
 // 一： 示例一
-/*
-func main() {
-	num := 3 			// 声明一个变量 num 等于3
+func dodeSw1() {
+	num := 3 // 声明一个变量 num 等于3
 	switch num {
-	case 1:			 	// cash关键字，匹配到哪个就执行哪个。
+	case 1: // cash关键字，匹配到哪个就执行哪个。
 		fmt.Println("One")
 	case 2:
 		fmt.Println("Two")
@@ -16,8 +17,6 @@ func main() {
 	}
 }
 
-*/
-/*
 // 二： 示例二
 func grade(score int) string {
 	g := ""
@@ -36,7 +35,7 @@ func grade(score int) string {
 	}
 	return g
 }
-func main() {
+func dodeSw2() {
 	fmt.Println(
 		grade(60),
 		grade(30),
@@ -46,10 +45,8 @@ func main() {
 
 }
 
-*/
-/*
 // 三： 示例三 支持没有表达式的形式，直接对多个条件进行匹配。
-func main() {
+func dodeSw3() {
 	age := 20
 
 	switch {
@@ -61,10 +58,8 @@ func main() {
 	}
 }
 
-*/
-/*
 // 四： 示例四 使用多个cash值
-func main() {
+func dodeSw4() {
 	fruit := "orange"
 
 	switch fruit {
@@ -74,5 +69,3 @@ func main() {
 		fmt.Println("Unknown fruit.")
 	}
 }
-
-*/

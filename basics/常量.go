@@ -1,6 +1,10 @@
 package main
 
-/*
+import (
+	"fmt"
+	"math"
+)
+
 // 一： 常量
 func conSts() {
 	const (
@@ -37,10 +41,3 @@ func meiJu2() {
 	fmt.Println(b, kb, mb, gb, tb, pb)
 
 }
-func main() {
-	conSts()
-	meiJu()
-	meiJu2()
-}
-
-*/
