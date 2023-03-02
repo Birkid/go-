@@ -1,6 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
-	xunHuan2()
+	a, b := 3, 4
+	a, b = swap1(a, b)
+	fmt.Println(a, b)
 
 }
