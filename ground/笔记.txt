@@ -1,0 +1,10 @@
+一： 数组
+    1. 固定大小的同类型元素集合。
+        ①. var arrayName [arraySize]arrayType
+    2. 数组元素的访问可以通过数组名和索引来实现
+        ①. x := arr[0]
+    3.  range 关键字来遍历数组
+        ①. for i, v := range arr {
+               fmt.Println(i, v)
+           }
+

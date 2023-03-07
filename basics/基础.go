@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func dodeJc() {
-	fmt.Println("hello world")
+	fmt.Println("放过他们吧！ 我来！")
 }
 
 // 一： 利用 fmt 这个库去打印 hello world

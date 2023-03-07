@@ -1,1 +1,6 @@
-package ground
+package main
+
+func main() {
+	sliceDemo()
+
+}
